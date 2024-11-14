@@ -1,0 +1,89 @@
+.connection-root{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.connection-window-container{
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    margin-top: 60px;
+    /*background-color: white;*/
+}
+
+.sidebar-offset{
+    min-width: 150px;
+    /*height: 100%;*/
+    /*background-color: blue;*/
+}
+.info-text{
+    
+    /*background-color: burlywood;*/
+    /*overflow: visible;*/
+    font-size: 20px;
+    -unity-font: url("/Assets/Fonts/Roboto/Roboto-Regular.ttf");
+    width: initial;
+    margin: 0;
+    flex-wrap: wrap;
+    white-space: normal;
+    
+}
+
+.info-text-wrapper{
+    -unity-text-align: middle-center;
+    align-items: center;
+    height: auto;
+    width: 350px;
+    /*background-color: blue;*/
+}
+
+.visual{
+    background-image: url("/Assets/Icon 2/Component 11.png");
+    width: 544px;
+    height: 136px;
+    margin-top: 8px;
+    margin-bottom: 35px;
+}
+
+.connection-window{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: white;
+    width: 625px;
+    height: 380px;
+    border-radius: 14px;
+}
+
+.reconnect-button{
+    /*flex: 1;*/
+    background-image: url("/Assets/Icon 2/Retry Button.png");
+    /*background-color: blue;*/
+    /*fle*/
+    opacity: 1;
+    width: 60px;
+    height: 60px;
+    transition-duration: 200ms;
+}
+
+.reconnect-button:hover{
+    opacity: 0.8;
+    transition-duration: 200ms;
+}
+
+.reconnecting-text{
+    -unity-font: url("/Assets/Fonts/Roboto/Roboto-Regular.ttf");
+    font-size: 18px;
+}
+
+.hidden{
+    /*width: 0;*/
+    height: 0;
+    visibility: hidden;
+    transition-duration: 200ms;
+}

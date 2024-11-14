@@ -1,0 +1,226 @@
+.measurement-display{
+    display: flex;
+    width: 874px;
+    background-color: white;
+    -unity-font: url("/Assets/Fonts/Roboto/Roboto-Regular.ttf");
+    padding-top:  48px;
+    padding-left:  25px;
+    padding-right:  40px;
+    height: 100%;
+}
+
+.measurement-header{
+    margin-bottom: 38px ;    
+}
+
+.measurement-text{
+    flex: 1;
+    -unity-font-style: bold;
+    font-size: 48px;
+}
+
+.measurement-header-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: center;*/
+}
+
+.measurement-connection{
+    /*background-color: black;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row ;
+    padding:  0px 20px;
+}
+
+.connection-logo{
+    /*background-image: url("/Assets/Icon/Connected.png");*/
+    width: 35px;
+    height: 35px;
+}
+
+.connection-logo.connected{
+    background-image: url("/Assets/Icon/Connected.png");
+}
+
+.connection-logo.disconnected{
+    background-image: url("/Assets/Icon/Not Connected Circle.png");
+}
+
+.connection-status{
+    margin: 0 8px;
+    font-size: 25px;
+    -unity-font-style: bold;
+}
+
+.connected{
+    color: #02BC7D;
+}
+
+.disconnected{
+    color: #EE404C;
+}
+
+.oneiot-logo{
+    background-image: url("/Assets/Icon/Icon OneIoT.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 59px;
+    height: 51px;
+}
+
+.measurement-body{
+    /*background-color: antiquewhite;*/
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.measurement-data{
+    -unity-font-style: bold;
+    font-size: 24px;
+    color: black;
+    min-width: 219px;
+    height: 100%;
+    /*background-color: black;*/
+}
+
+.measurement-image{
+    /*background-color: blue;*/
+    width: 100%;
+}
+
+.id-profile, .data-header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.id-profile-ll{
+    align-items: center;
+    justify-content: space-between;
+    /*background-color: black;*/
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.id-profile-logo, .data-logo{
+    background-image: url("/Assets/Icon/id-card.png");
+    height: 30px;
+    width: 30px
+}
+
+.id-profile-name{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.data-value-container{
+    width: 100%;
+}
+
+.depth-icon{
+    background-image: url("/Assets/Icon/Measurer2.png");
+    width: 30px;
+    height: 30px
+}
+.data-value-container:hover{
+    background-color: rgb(192, 191, 191);
+    transition-duration: 200ms;
+}
+
+#unity-text-input{
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: white;
+    border-radius: 14px;
+    border-color: #D9D9D9;
+    background-color: #D9D9D9;
+    -unity-text-align: middle-center;
+    -unity-font-style: normal;
+}
+
+#unity-text-input:hover{
+    background-color: rgb(192, 191, 191);
+    transition-duration: 200ms;
+}
+
+.label-logo{
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.data-value-container{
+    align-items: center;
+   
+    width: 100%;
+    background-color: #D9D9D9;
+    border-radius: 14px;
+    height: 55px;
+}
+
+.data-header{
+    margin-bottom: 5px;
+}
+.value-text{
+    margin: 0;
+    height: 100%;
+    -unity-font-style: normal;
+    -unity-text-align: middle-center;
+}
+
+.caries-icon{
+    background-image: url("/Assets/Icon/dental-caries.png");
+}
+
+.save-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 25px;
+    /*flex: 1;*/
+    width: 100%;
+    height: 55px;
+    background-color: #02BC7D;
+    border-radius: 14px;
+    transition-duration: 200ms
+}
+
+.save-button:hover{
+    background-color: rgb(2, 164, 110);
+    transition-duration: 200ms;
+}
+
+.save-button-icon{
+    background-image: url("/Assets/Icon/folder.png");    
+    width: 30px;
+    height: 30px;
+}
+
+.save-button-text
+{
+    margin: 10px;
+    -unity-text-align: middle-center;
+    -unity-font-style: normal;
+}
+
+.measurement-image{
+    position: absolute;
+    right: 0;
+    top: 155px;
+    background-image: url("/Assets/Icon 2/Component 3.png");
+    width:625px;
+    /*margin-left: 0px;*/
+    /*background-color: black;*/
+    height: 420px;
+}

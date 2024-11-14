@@ -1,0 +1,23 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Misc/Style.uss?fileID=7433441132597879392&amp;guid=6a0cef7d43841d8488dbb0d8549f80c7&amp;type=3#Style" />
+    <engine:VisualElement class="connection-root" style="flex-grow: 1;">
+        <engine:VisualElement class="connection-window-container">
+            
+            <engine:VisualElement class="connection-window">
+                <!-- stupid way but the most fast way to do it -->
+                <engine:VisualElement class="info-text-wrapper">
+                    <engine:Label text="Device seems to be disconnected, check the connection and try again" class="info-text"/>
+                </engine:VisualElement>
+                <!-- <engine:Label text="check the connection and try again" class="info-text"/> -->
+                <engine:VisualElement class="visual"/>
+                <engine:VisualElement class="reconnect-button"/>
+                <engine:Label text="Please wait for reconnecting..." class="reconnecting-text hidden"/>
+            </engine:VisualElement>
+            
+            
+            
+        </engine:VisualElement>
+        <engine:VisualElement class="sidebar-offset"/>
+        
+    </engine:VisualElement>
+</engine:UXML>

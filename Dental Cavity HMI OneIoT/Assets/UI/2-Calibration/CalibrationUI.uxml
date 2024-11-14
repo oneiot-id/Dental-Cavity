@@ -1,0 +1,33 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/2-Calibration/CalibrationStyle.uss?fileID=7433441132597879392&amp;guid=b7228e66cf8ec7f4db2fec256696589f&amp;type=3#CalibrationStyle" />
+    <engine:VisualElement class="root-element">
+        
+        <engine:VisualElement class="calibration-display">
+        
+            <engine:VisualElement class="header">
+                <engine:Label class="display-header" text="Calibration" />
+                <engine:VisualElement class="connection active"/>
+                
+                <engine:VisualElement class="logo"/>
+                
+            </engine:VisualElement>
+
+            <engine:VisualElement class="calibration-body">
+                <engine:VisualElement class="calibration-step step-1"/>
+                <engine:VisualElement class="visual visual-1"/>
+                <engine:VisualElement class="calibration-navigation nav-1"/>
+                
+                <engine:VisualElement class="calibration-navigation-4">
+                    <engine:VisualElement class="retry-button"/>
+                    <engine:VisualElement class="save-button"/>
+                
+                </engine:VisualElement>
+            </engine:VisualElement>
+            
+        </engine:VisualElement>
+    
+        <engine:VisualElement class="sidebar-overlay"/>
+            
+    </engine:VisualElement>
+    
+</engine:UXML>

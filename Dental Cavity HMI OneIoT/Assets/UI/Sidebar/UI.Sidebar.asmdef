@@ -1,0 +1,16 @@
+{
+    "name": "UI.Sidebar",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ed56700bd9e1fe440877952d59c7d429"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

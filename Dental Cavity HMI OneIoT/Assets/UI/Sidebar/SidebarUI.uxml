@@ -1,0 +1,19 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Sidebar/SidebarStyle.uss?fileID=7433441132597879392&amp;guid=0c2d2c8626eb6454f8b8ab562eb09b52&amp;type=3#SidebarStyle" />
+    <engine:VisualElement class="sidebar" style="flex-grow: 1;">
+        
+        <engine:VisualElement class="sidebar-item sidebar-active">
+            <engine:VisualElement class="sidebar-icon sidebar-measurement"/>
+        </engine:VisualElement>
+        
+        <engine:VisualElement class="sidebar-item">
+            <engine:VisualElement class="sidebar-icon sidebar-calibration"/>
+        </engine:VisualElement>
+        
+        
+        <engine:VisualElement class="sidebar-item">
+            <engine:VisualElement class="sidebar-icon sidebar-settings"/>
+        </engine:VisualElement>
+        
+    </engine:VisualElement>
+</engine:UXML>

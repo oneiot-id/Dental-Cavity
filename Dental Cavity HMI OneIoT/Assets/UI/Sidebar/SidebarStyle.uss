@@ -1,0 +1,87 @@
+.sidebar{
+    background-color:  #181C14;
+    height: 100%;
+    width: 150px;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 42px 0;
+}
+
+.sidebar-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  125px;
+    height: 125px;
+    opacity: 0.5;
+    transition-duration: 300ms;
+}
+
+
+
+.sidebar-item:hover{
+    /*//242820*/
+    border-radius: 15px;
+    /*background-color: rgb(24,28,20);*/
+    opacity: 1;
+    transition-duration: 200ms ;
+    
+}
+
+.sidebar-measurement{
+
+    /*width: 100%;*/
+    /*height: 100%;*/
+    background-image: url("/Assets/Icon/tooth (2).png");
+}
+
+
+
+
+.sidebar-active{
+    transition-duration: 300ms;
+    background-color: #02BC7D;
+    border-radius:  15px;
+    transition-delay: 20ms;
+}
+
+.sidebar-active:hover{
+    opacity: 0.75;
+    transition-duration: 200ms;
+    background-color: #02BC7D;
+    border-radius:  15px;
+}
+
+.sidebar-disconnect{
+    transition-duration: 300ms;
+    background-color: #EE404C;
+    border-radius:  15px;
+    transition-delay: 20ms;
+}
+
+.sidebar-disconnect:hover{
+    opacity: 0.75;
+    transition-duration: 200ms;
+    background-color: #EE404C;
+    border-radius:  15px;
+}
+
+.sidebar-calibration{
+    background-image: url("/Assets/Icon/calibrate 2.png");
+}
+
+.sidebar-settings{
+    background-image: url("/Assets/Icon/setting.png");
+}
+
+.sidebar-icon{
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+}
+
+
+

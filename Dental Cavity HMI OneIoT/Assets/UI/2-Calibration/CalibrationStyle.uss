@@ -1,0 +1,223 @@
+.root-element{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    -unity-font: url("/Assets/Fonts/Roboto/Roboto-Regular.ttf");
+    flex-direction: row;
+}
+
+.calibration-display{
+    display: flex;
+    width: 100%;
+    margin: 46px 26px;
+    height: 100%;
+    /*background-color: antiquewhite;*/
+}
+
+.sidebar-overlay{
+    /*margin: 0px 26px;*/
+    min-width: 150px;
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    /*height: 40px;*/
+    font-size: 48px;
+    -unity-font-style: bold;    
+    /*background-color: whitesmoke;*/
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 27px;
+    
+}
+
+.connection.active{
+    background-image: url("/Assets/Icon/Connected - Copy.png");
+    width: 180px;
+    height: 35px;
+}
+
+.connection.not-active{
+    background-image: url("/Assets/Icon/Not Connected.png");
+    width: 227px;
+    height: 35px;
+}
+
+.logo{
+    margin-left: 25px;
+    background-image: url("/Assets/Icon/Icon OneIoT.png");
+    width: 59px;
+    height: 51px;
+}
+
+.display-header{
+    flex: 1
+}
+
+.calibration-body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    
+    
+}
+
+.calibration-step.step-1{
+    background-image: url("/Assets/Assets/Calibration/Step 1.png");
+}
+
+.calibration-step.step-2{
+    background-image: url("/Assets/Assets/Calibration/Step 2.png");
+}
+
+.calibration-step.step-3{
+    background-image: url("/Assets/Assets/Calibration/Step 3.png");
+}
+
+.calibration-step.step-4{
+    background-image: url("/Assets/Assets/Calibration/Step 4.png");
+}
+
+.calibration-step{
+    /*background-color: white;*/
+    width: 371px;
+    height: 63px;
+    opacity: 1;
+    transition-duration: 200ms;
+}
+
+.calibration-step:hover{
+    opacity: 0.9;
+    transition-duration: 200ms;
+}
+
+.visual{
+    margin: 12px 0;
+}
+
+
+
+
+.visual.visual-1{
+    background-image: url("/Assets/Assets/Calibration/visual1.png");
+    width: 406px;
+    height: 282px;
+}
+
+.visual.visual-2{
+    margin: 25px 0;
+    margin-left: 80px;
+    background-image: url("/Assets/Assets/Calibration/visual2.png");
+    width: 794px;
+    height: 250px;
+}
+
+.visual.visual-3{
+    margin: 25px 0;
+    margin-left: 80px;
+    background-image: url("/Assets/Assets/Calibration/visual3.png");
+    width: 794px;
+    height: 250px;
+}
+
+.visual.visual-4{
+    margin: 45px 0;
+    /*margin-left: 80px;*/
+    background-image: url("/Assets/Assets/Calibration/visual4.png");
+    width: 469px;
+    height: 203px;
+}
+
+.calibration-navigation.nav-1{
+    margin: 6px 0;
+    width: 60px;
+    height: 60px;
+    background-image: url("/Assets/Assets/Calibration/Next Button.png");
+    opacity: 1;
+    transition-duration: 200ms;
+}
+
+.calibration-navigation.nav-1.visible{
+    margin: 6px 0;
+    width: 60px;
+    height: 60px;
+    background-image: url("/Assets/Assets/Calibration/Next Button.png");
+    opacity: 1;
+    transition-duration: 300ms;
+}
+
+.calibration-navigation.nav-1.hidden{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    transition-duration: 300ms;
+}
+
+.calibration-navigation.nav-1:hover{
+    opacity: 0.8;
+    transition-duration: 200ms;
+}
+
+
+.calibration-navigation-4{
+    /*background-color: whitesmoke;*/
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    -unity-paragraph-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+
+}
+
+/*.calibration-navigation-4:hover{*/
+/*    opacity: 0.8;*/
+/*    transition-duration: 200ms;*/
+/*}*/
+
+.retry-button{
+    margin: 0 23px;
+    background-image: url("/Assets/Assets/Calibration/retry button.png");
+    width: 60px;
+    height: 60px;
+    opacity: 1;
+    transition-duration: 200ms;
+}
+
+.retry-button:hover{
+    opacity: 0.8;
+    transition-duration: 200ms;
+}
+
+.save-button{
+    margin: 0 23px;
+    background-image: url("/Assets/Assets/Calibration/Next Button.png");
+    width: 60px;
+    height: 60px;
+    opacity: 1;
+    transition-duration: 200ms;
+}
+
+.save-button:hover{
+    opacity: 0.8;
+    transition-duration: 200ms;
+}
+
+.visible{
+    visibility: visible;
+}
+
+.hidden{
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+}
+

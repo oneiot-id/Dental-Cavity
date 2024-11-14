@@ -1,0 +1,74 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Measurement/MeasurementStyle.uss?fileID=7433441132597879392&amp;guid=f4bb70f97db3eb34a8d0c34eb522adfb&amp;type=3#MeasurementStyle" />
+    
+    <engine:VisualElement class="measurement-display" style="flex-grow: 1;">
+        <engine:VisualElement class="measurement-header">
+            <engine:VisualElement class="measurement-header-items">
+                <engine:Label class="measurement-text" text="Measurement"/>
+                
+                <!-- working on it -->
+                <engine:VisualElement class="measurement-connection">
+                    <engine:VisualElement class="connection-logo connected"/>
+                    <engine:Label class="connection-status connected" text="Connected"/>
+                </engine:VisualElement>
+                <engine:VisualElement class="oneiot-logo"/>
+            </engine:VisualElement>
+        </engine:VisualElement>
+        
+        <engine:VisualElement class="measurement-body">
+            <engine:VisualElement class="measurement-data">
+                
+                <!-- ID Profile -->
+                <engine:VisualElement class="id-profile data-header">
+                    <engine:VisualElement class="id-profile-ll">
+                        <engine:Label class="id-profile-label data-label" text="ID Pasien"/>
+                        <engine:VisualElement class="id-profile-logo data-logo"/>
+                    </engine:VisualElement>
+                    
+                    <engine:VisualElement class="id-profile-bottom data-value-container">
+                        <engine:TextField class="id-profile-name" placeholder-text="-"/>
+                    </engine:VisualElement>
+                    
+                </engine:VisualElement>
+                
+                <!-- Depth -->
+                <engine:VisualElement class="data-header">
+                    <engine:VisualElement class="label-logo">
+                        <engine:Label class="data-label" text="Depth"/>
+                        <engine:VisualElement class="depth-icon data-logo"/>
+                    </engine:VisualElement>
+                    
+                    <engine:VisualElement class="data-value-container">
+                        <engine:Label class="depth-value value-text" text="-"/>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                
+                <!-- Caries Class -->
+                <engine:VisualElement class="data-header">
+                    <engine:VisualElement class="label-logo">
+                        <engine:Label class="data-label" text="Caries Class"/>
+                        <engine:VisualElement class="caries-icon data-logo"/>
+                    </engine:VisualElement>
+                    
+                    <engine:VisualElement class="data-value-container">
+                        <engine:Label class="caries-value value-text" text="-"/>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                
+                <!-- Save button -->
+                <engine:VisualElement class="save-button">
+                    <engine:VisualElement class="save-button-icon"/>
+                    <engine:Label class="save-button-text value-text" text="Save Data"/>
+                </engine:VisualElement>
+                
+            </engine:VisualElement>
+            
+            <!-- Image -->
+           <!-- <engine:VisualElement class="measurement-body-image"/> -->
+            
+        </engine:VisualElement>
+
+    </engine:VisualElement>
+        <engine:VisualElement class="measurement-image"/>
+    
+</engine:UXML>
